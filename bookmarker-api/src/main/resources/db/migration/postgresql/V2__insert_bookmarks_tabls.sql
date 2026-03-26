@@ -1,0 +1,15 @@
+INSERT INTO bookmarks (id, title, url, create_at) VALUES (1, '구글 검색', 'https://www.google.com', NOW());
+INSERT INTO bookmarks (id, title, url, create_at) VALUES (2, '네이버 메인', 'https://www.naver.com', NOW());
+INSERT INTO bookmarks (id, title, url, create_at) VALUES (3, '유튜브', 'https://www.youtube.com', NOW());
+INSERT INTO bookmarks (id, title, url, create_at) VALUES (4, '깃허브', 'https://github.com', NOW());
+INSERT INTO bookmarks (id, title, url, create_at) VALUES (5, '스택오버플로우', 'https://stackoverflow.com', NOW());
+INSERT INTO bookmarks (id, title, url, create_at) VALUES (6, '카카오', 'https://www.kakao.com', NOW());
+INSERT INTO bookmarks (id, title, url, create_at) VALUES (7, '쿠팡 쇼핑', 'https://www.coupang.com', NOW());
+INSERT INTO bookmarks (id, title, url, create_at) VALUES (8, '배달의민족', 'https://www.baemin.com', NOW());
+INSERT INTO bookmarks (id, title, url, create_at) VALUES (9, '토스', 'https://toss.im', NOW());
+INSERT INTO bookmarks (id, title, url, create_at) VALUES (10, '인프런 강의', 'https://www.inflearn.com', NOW());
+INSERT INTO bookmarks (id, title, url, create_at) VALUES (11, '생활코딩', 'https://opentutorials.org', NOW());
+INSERT INTO bookmarks (id, title, url, create_at) VALUES (12, '리디북스', 'https://ridibooks.com', NOW());
+INSERT INTO bookmarks (id, title, url, create_at) VALUES (13, '넷플릭스', 'https://www.netflix.com', NOW());
+INSERT INTO bookmarks (id, title, url, create_at) VALUES (14, '디스코드', 'https://discord.com', NOW());
+INSERT INTO bookmarks (id, title, url, create_at) VALUES (15, '줌 회의', 'https://zoom.us', NOW());

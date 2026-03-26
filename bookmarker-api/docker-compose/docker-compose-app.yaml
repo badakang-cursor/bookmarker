@@ -1,0 +1,20 @@
+# 분리한 파일에서 실행
+# docker-compose -f docker-compose-app.yaml -f docker-compose-db.yaml up
+# docker-compose -f docker-compose-app.yaml -f docker-compose-db.yaml stop
+
+services:
+  bookmarker-api:
+    build:
+      context: ../../bookmarker
+      dockerfile: Dockerfile
+    environment:
+      SPRING_PROFILE_ACTIVE: docker
+      SPRING_DATASOURCE_DRIVER_CLASS_NAME: org.postgresql.Driver
+      SPRING_DATASOURCE_URL: jdbc:postgresql://bookmarker-db:5432/appdb
+      SPRING_DATASOURCE_USERNAME: postgres
+      SPRING_DATASOURCE_PASSWORD: postgres
+    ports:
+      - "8080:8080"
+    restart: always
+    depends_on:
+      - bookmarker-db

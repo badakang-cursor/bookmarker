@@ -1,0 +1,30 @@
+#하나의 파일에서 실행
+# docker-compose up
+# docker-compose stop
+
+
+services:
+  bookmarker-db:
+      image: postgres:14-alpine
+      environment:
+        POSTGRES_USER: postgres
+        POSTGRES_PASSWORD: postgres
+        POSTGRES_DB: appdb
+      ports:
+        - "15432:5432"
+        
+  bookmarker-api:
+    build:
+      context: ../bookmarker
+      dockerfile: Dockerfile
+    environment:
+      SPRING_PROFILE_ACTIVE: docker
+      SPRING_DATASOURCE_DRIVER_CLASS_NAME: org.postgresql.Driver
+      SPRING_DATASOURCE_URL: jdbc:postgresql://bookmarker-db:5432/appdb
+      SPRING_DATASOURCE_USERNAME: postgres
+      SPRING_DATASOURCE_PASSWORD: postgres
+    ports:
+      - "18080:8080"
+    restart: always
+    depends_on:
+      - bookmarker-db
