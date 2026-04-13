@@ -1,11 +1,28 @@
-import Image from "next/image";
-import styles from "./page.module.css";
-import NavBar from "../components/NavBar";
+import { fetchBookmarks } from '@/services/api/fetchBookmarks';
+import React from 'react'
+import Bookmarks from '../components/Bookmarks';
+import Pagination from '../components/Pagination';
+import SearchForm from '../components/SearchForm';
 
-export default function Home() {
+//가상데이터를 페칭
+
+const page = async ({searchParams}: {searchParams: Promise<{ page ?: string, query ?: string}>}) => {
+  const {page, query} = await searchParams;
+  const pageNumber = page ? parseInt(page, 10):1;
+  const queryString = query ? String(query) : "";
+  const bookmarks = await fetchBookmarks(pageNumber, queryString);
+
   return (
     <div>
-      <h3>Welcome to Bookmark</h3>
+      <h2>Welcome to bookmarks</h2>
+      <SearchForm/>
+      <Pagination bookmarks={bookmarks} query={query} />
+      <ul>
+        <Bookmarks bookmarks={bookmarks}/>
+      </ul>
     </div>
-  );
+  )
 }
+
+export default page
+
