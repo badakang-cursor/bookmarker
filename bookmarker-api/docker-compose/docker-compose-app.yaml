@@ -24,14 +24,14 @@ services:
     
     # Docker 내부의 SpringBoot 요청 주소 bookmarker-api : service명으로 되어 있음
   bookmarker-ui-nextjs:
-    container_name: bookmark-ui-nextjs
+    container_name: bookmarker-ui-nextjs
     build:
-      context: ../../bookmark-ui-nextjs
+      context: ../../bookmarker-ui-nextjs
       dockerfile: Dockerfile.ui
     ports:
      - "13000:3000"
     env_file:
-      - ../../bookmark-ui-nextjs/.env.local
+      - ../../bookmarker-ui-nextjs/.env.local
     networks:
       - bookmarker-network
 
