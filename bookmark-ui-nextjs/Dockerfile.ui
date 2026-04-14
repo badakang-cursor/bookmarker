@@ -1,0 +1,42 @@
+# Dockerizing : docker build -f ./Dockerfile.ui -t chamiseul/bookmark-ui-nextjs .
+# Docker 실행 : docker run -p 13000:3000 chamiseul/bookmark-ui-nextjs
+
+FROM node:20-alpine AS deps
+RUN apk add --no-cache libc6-compat
+WORKDIR /app
+
+COPY package.json package-lock.json ./
+# 프로덕션 환경용 의존성 설치(devDependences 제외)
+RUN npm ci --omit=dev
+
+# 빌더를 하기 위한 내부 폴더를 선택하고 필요 node_modules를 복사하고 빌드한다.
+FROM node:20-alpine AS builder
+WORKDIR /app
+
+COPY . .
+COPY --from=deps /app/node_modules ./node_modules
+COPY .env.local .env.local
+
+RUN npm run build
+
+# 실행을 위한 이미지와 폴더를 선택하고 환경설정을 한다.
+FROM node:20-alpine AS runner
+WORKDIR /app
+
+ENV NODE_ENV=production
+
+RUN addgroup -g 1001 -S nodejs
+RUN adduser -S -u 1001 -G nodejs nextjs
+
+COPY --from=builder /app/next.config.ts ./
+COPY --from=builder /app/public ./public
+COPY --from=builder --chown=nextjs:nodejs /app/.next ./.next
+COPY --from=builder /app/node_modules ./node_modules
+COPY --from=builder /app/package.json ./package.json
+COPY --from=builder /app/.env.local .env.local
+
+USER nextjs
+
+EXPOSE 3000
+
+CMD ["npm", "start"]
