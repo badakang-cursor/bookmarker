@@ -66,11 +66,12 @@ jobs:
 
       - name: Install dependencies
         run: npm ci
-
+      
+        # .env.local 은 기본적으로 git에 올라가지 않기때문에 dockerizing 하기전에 미리 생성
       - name: Create .env.local
         run: |
-          echo "NEXT_PUBLIC_CLIENT_SIDE_API_BASE_URL=${{secrets.NEXT_PUBLIC_CLIENT_SIDE_API_BASE_URL}}" > env.local
-          echo "SERVER_SIDE_API_BASE_URL=${{secrets.SERVER_SIDE_API_BASE_URL}}" >> env.local
+          echo "NEXT_PUBLIC_CLIENT_SIDE_API_BASE_URL=${{secrets.NEXT_PUBLIC_CLIENT_SIDE_API_BASE_URL}}" > .env.local
+          echo "SERVER_SIDE_API_BASE_URL=${{secrets.SERVER_SIDE_API_BASE_URL}}" >> .env.local
 
       - name: Build
         run: npm run build
