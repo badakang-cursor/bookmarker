@@ -1,3 +1,6 @@
+# Dockerizing : docker build -t chamiseul/bookmarker-api .
+# Docker 실행 : docker run -p 8080:8080 chamiseul/bookmarker-api
+
 #FROM eclipse-temurin:17-jdk-alpine
 FROM eclipse-temurin:17.0.11_9-jre-focal
 #FROM eclipse-temurin:21-jre
