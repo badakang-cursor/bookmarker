@@ -4,7 +4,7 @@
 
 services:
   bookmarker-api:
-    container_name: bookmarker-api
+    container_name: bookmarker-api-docker-compose
     build:
       context: ../../bookmarker-api
       dockerfile: Dockerfile
@@ -24,12 +24,12 @@ services:
     
     # Docker 내부의 SpringBoot 요청 주소 bookmarker-api : service명으로 되어 있음
   bookmarker-ui-nextjs:
-    container_name: bookmarker-ui-nextjs
+    container_name: bookmarker-ui-docker-compose
     build:
       context: ../../bookmarker-ui-nextjs
       dockerfile: Dockerfile.ui
     ports:
-     - "13000:3000"
+      - "13000:3000"
     env_file:
       - ../../bookmarker-ui-nextjs/.env.local
     networks:

@@ -6,6 +6,12 @@
 # separate terms of service, privacy policy, and support
 # documentation.
 
+#### PC에서 실행 ################################ 
+# 네트워크 생성 : docker network create bookmarker-network
+# API 실행 : docker run -d --network bookmarker-network -p 18080:8080 --name bookmarker-api chamiseul/bookmarker-api:5.0
+# UI 실행 : docker run -d --network bookmarker-network -p 13000:3000 --name bookmarker-ui chamiseul/bookmarker-ui-nextjs:5.0
+################################################
+
 name: Java CI with Maven
 
 on:
@@ -13,6 +19,7 @@ on:
     branches: [ "**" ]
 
 jobs:
+# API build & Docker Hub Push
   build-bookmarker-api:
     name: Build bookmarker-api
     runs-on: ubuntu-latest
@@ -48,6 +55,7 @@ jobs:
           DOCKER_BUILDKIT: 1
           DOCKER_CLI_EXPERIMENTAL: enabled
 
+# UI build & Docker Hub Push
   build-bookmarker-ui:
     name: Build bookmarker-ui
     runs-on: ubuntu-latest
