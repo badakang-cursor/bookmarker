@@ -240,7 +240,7 @@ https://www.youtube.com/watch?v=Bbz7Vz9l_gY&list=PL_GeFwqaAwWFBN0G6Ml3cAtH40fAnR
 8. 렌즈(Lens) 설치 및 GUI로 클러스터 관리
 9. 파드, 서비스, 클러스터 삭제 방법
 10. 마무리 및 다음 강의 예고
-![이미지](https://github.com/badakang-cursor/bookmarker/blob/main/kind/17Lec/17%EA%B0%95%EC%9D%B4%ED%9B%84%EA%B0%95%EC%9D%98%EA%B3%84%ED%9A%8D.png?raw=true)
+![이미지](https://github.com/badakang-cursor/bookmarker/blob/main/k8s/17Lec/17%EA%B0%95%EC%9D%B4%ED%9B%84%EA%B0%95%EC%9D%98%EA%B3%84%ED%9A%8D.png?raw=true)
 
 # 18강
 
