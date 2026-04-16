@@ -2,7 +2,7 @@
 
 https://www.youtube.com/watch?v=Bbz7Vz9l_gY&list=PL_GeFwqaAwWFBN0G6Ml3cAtH40fAnRDzU&index=23
 
-# 1강
+# 1강 프로젝트세팅
 
 - URL : https://www.youtube.com/watch?v=QyRKXYd4xC8&list=PL_GeFwqaAwWFBN0G6Ml3cAtH40fAnRDzU&index=22
 - 내용
@@ -15,7 +15,7 @@ https://www.youtube.com/watch?v=Bbz7Vz9l_gY&list=PL_GeFwqaAwWFBN0G6Ml3cAtH40fAnR
 6. 스프링 부트 프로젝트 생성 및 디펜던시 추가
 7. 마무리 및 다음 강의 안내
 
-# 2강
+# 2강 Spring Boot REST API (with JPA)
 
 - URL : https://www.youtube.com/watch?v=6hulvI45kBg&list=PL_GeFwqaAwWFBN0G6Ml3cAtH40fAnRDzU&index=21
 - 내용
@@ -32,7 +32,7 @@ https://www.youtube.com/watch?v=Bbz7Vz9l_gY&list=PL_GeFwqaAwWFBN0G6Ml3cAtH40fAnR
 10. 🐞 JSON 프로퍼티 이름 문제 해결하기
 11. 🎯 마무리 및 다음 강의 예고
 
-# 3강
+# 3강 flyway migration
 
 - URL : https://www.youtube.com/watch?v=ld20oEm0oAo&list=PL_GeFwqaAwWFBN0G6Ml3cAtH40fAnRDzU&index=20
 - 내용
@@ -48,7 +48,7 @@ https://www.youtube.com/watch?v=Bbz7Vz9l_gY&list=PL_GeFwqaAwWFBN0G6Ml3cAtH40fAnR
 9. 🚀 프로젝트 실행 및 결과 확인
 10. 🔜 다음 강의 예고
 
-# 4강
+# 4강 JPA 프로덕션 DTO
 
 - URL : https://www.youtube.com/watch?v=mRj7on7vXak&list=PL_GeFwqaAwWFBN0G6Ml3cAtH40fAnRDzU&index=19
 - 내용
@@ -61,7 +61,7 @@ https://www.youtube.com/watch?v=Bbz7Vz9l_gY&list=PL_GeFwqaAwWFBN0G6Ml3cAtH40fAnR
 6. 🔍 JPQL을 활용한 DTO 직접 반환 방법
 7. ✅ 마무리 및 중요 포인트 정리
 
-# 5강
+# 5강 Testcontainer
 
 - URL : https://www.youtube.com/watch?v=OseGt-OyZXI&list=PL_GeFwqaAwWFBN0G6Ml3cAtH40fAnRDzU&index=18
 - 내용
@@ -75,7 +75,7 @@ https://www.youtube.com/watch?v=Bbz7Vz9l_gY&list=PL_GeFwqaAwWFBN0G6Ml3cAtH40fAnR
 7. 📦 메이븐 빌드 및 실행 파일 테스트
 8. 🚀 서버 실행 및 API 테스트
 
-# 6강
+# 6강 도커Dockerizing
 
 - URL : https://www.youtube.com/watch?v=r2T38qgB-QA&list=PL_GeFwqaAwWFBN0G6Ml3cAtH40fAnRDzU&index=17
 - 내용
@@ -89,7 +89,7 @@ https://www.youtube.com/watch?v=Bbz7Vz9l_gY&list=PL_GeFwqaAwWFBN0G6Ml3cAtH40fAnR
 7. 🔑 도커 허브 퍼스널 토큰 생성 및 로그인 방법
 8. 🏁 마무리 및 요약
 
-# 7강
+# 7강 Github Action CI 구축 with Docker
 
 - URL : https://www.youtube.com/watch?v=2AZa5ZVMtgo&list=PL_GeFwqaAwWFBN0G6Ml3cAtH40fAnRDzU&index=16
 - 내용
@@ -103,7 +103,7 @@ https://www.youtube.com/watch?v=Bbz7Vz9l_gY&list=PL_GeFwqaAwWFBN0G6Ml3cAtH40fAnR
 7. 🏃‍♂ 코드 변경 시 자동 빌드 및 Docker 이미지 푸시 확인
 8. 💡 마무리 및 앞으로의 학습 방향
 
-# 8강
+# 8강 SpringBoot REST API 조회, 입력
 
 - URL : https://www.youtube.com/watch?v=2FC2_FlWho4&list=PL_GeFwqaAwWFBN0G6Ml3cAtH40fAnRDzU&index=15
 - 내용
@@ -118,7 +118,7 @@ https://www.youtube.com/watch?v=Bbz7Vz9l_gY&list=PL_GeFwqaAwWFBN0G6Ml3cAtH40fAnR
 8. 🧪 유닛 테스트 작성 및 실행하기
 9. 📝 마무리 및 다음 단계 안내
 
-# 9강
+# 9강 docker compose
 
 - URL : https://www.youtube.com/watch?v=R8JyY19auIc&list=PL_GeFwqaAwWFBN0G6Ml3cAtH40fAnRDzU&index=14
 - 내용
@@ -131,7 +131,7 @@ https://www.youtube.com/watch?v=Bbz7Vz9l_gY&list=PL_GeFwqaAwWFBN0G6Ml3cAtH40fAnR
 6. 🐧 Git Bash 설치 및 사용법
 7. ✅ 마무리 및 다음 강의 예고
 
-# 10강
+# 10강 application local properties 사용
 
 - URL : https://www.youtube.com/watch?v=qDunp17MEb8&list=PL_GeFwqaAwWFBN0G6Ml3cAtH40fAnRDzU&index=13
 - 내용
@@ -144,7 +144,7 @@ https://www.youtube.com/watch?v=Bbz7Vz9l_gY&list=PL_GeFwqaAwWFBN0G6Ml3cAtH40fAnR
 6. 디비버(DBeaver)로 Docker Postgresql 접속 및 데이터 확인
 7. 마무리 및 다음 강의 안내
 
-# 11강
+# 11강 NextJs 기본 Tutorials
 
 - URL : https://www.youtube.com/watch?v=psxwzOrH8uQ&list=PL_GeFwqaAwWFBN0G6Ml3cAtH40fAnRDzU&index=12
 - 내용
@@ -156,7 +156,7 @@ https://www.youtube.com/watch?v=Bbz7Vz9l_gY&list=PL_GeFwqaAwWFBN0G6Ml3cAtH40fAnR
 5. 🎨 CSS 스타일링과 Tailwind, DaisyUI 적용하기
 6. 📝 마무리 및 앞으로의 학습 방향
 
-# 12강
+# 12강 bookmark UI 레이아웃 구현
 
 - URL : https://www.youtube.com/watch?v=Cq9vPKRA1lI&list=PL_GeFwqaAwWFBN0G6Ml3cAtH40fAnRDzU&index=11
 - 내용
@@ -169,7 +169,7 @@ https://www.youtube.com/watch?v=Bbz7Vz9l_gY&list=PL_GeFwqaAwWFBN0G6Ml3cAtH40fAnR
 6. 라우팅 경로 변경과 넥스트JS 설정
 7. 마무리 및 다음 수업 예고
 
-# 13강
+# 13강 전체조회, 검색, 페이징 bookmakr UI 구현
 
 - URL : https://www.youtube.com/watch?v=DV12fatGqNI&list=PL_GeFwqaAwWFBN0G6Ml3cAtH40fAnRDzU&index=10
 - 내용
@@ -186,7 +186,7 @@ https://www.youtube.com/watch?v=Bbz7Vz9l_gY&list=PL_GeFwqaAwWFBN0G6Ml3cAtH40fAnR
 10. 🔍 검색 폼 컴포넌트 구현
 11. 🧪 최종 테스트 및 마무리
 
-# 14강
+# 14강 bookmark UI 입력 Create(CORS 처리)
 
 - URL : https://www.youtube.com/watch?v=3q0Zcw5DSHI&list=PL_GeFwqaAwWFBN0G6Ml3cAtH40fAnRDzU&index=9
 - 내용
@@ -199,7 +199,7 @@ https://www.youtube.com/watch?v=Bbz7Vz9l_gY&list=PL_GeFwqaAwWFBN0G6Ml3cAtH40fAnR
 7. 빌드 오류(ESLint) 해결법과 무시 설정
 8. 완성된 기능 테스트 및 프로젝트 정리
 
-# 15강
+# 15강 Next js UI 도커 배포 및 app db ui 통합 배포
 
 - URL : https://www.youtube.com/watch?v=_Q9cNkfDSmQ&list=PL_GeFwqaAwWFBN0G6Ml3cAtH40fAnRDzU&index=8
 - 내용
@@ -213,7 +213,7 @@ https://www.youtube.com/watch?v=Bbz7Vz9l_gY&list=PL_GeFwqaAwWFBN0G6Ml3cAtH40fAnR
 8. 최종 배포 확인 및 테스트
 9. 다음 강의 예고 - 도커 허브에 배포하기
 
-# 16강
+# 16강 server 및 UI의 github actions을 통한 dockerhub 배포 및 이미지 실행
 
 - URL : https://www.youtube.com/watch?v=HGEYofDDs3A&list=PL_GeFwqaAwWFBN0G6Ml3cAtH40fAnRDzU&index=7
 - 내용
@@ -226,7 +226,7 @@ https://www.youtube.com/watch?v=Bbz7Vz9l_gY&list=PL_GeFwqaAwWFBN0G6Ml3cAtH40fAnR
 7. 배포된 UI와 API 실행 확인하기
 8. 마무리 및 다음 강의 예고
 
-# 17강
+# 17강 Docker K8s Kind 이론 및 실습
 
 - URL : https://www.youtube.com/watch?v=8k0KtGDkpIQ&list=PL_GeFwqaAwWFBN0G6Ml3cAtH40fAnRDzU&index=6
 - 내용
@@ -242,7 +242,7 @@ https://www.youtube.com/watch?v=Bbz7Vz9l_gY&list=PL_GeFwqaAwWFBN0G6Ml3cAtH40fAnR
 10. 마무리 및 다음 강의 예고
 ![이미지](https://github.com/badakang-cursor/bookmarker/blob/main/k8s/17Lec/17%EA%B0%95%EC%9D%B4%ED%9B%84%EA%B0%95%EC%9D%98%EA%B3%84%ED%9A%8D.png?raw=true)
 
-# 18강
+# 18강 kubernetes 의 pod와 deployment 실습
 
 - URL : https://www.youtube.com/watch?v=-67obTFAo4I&list=PL_GeFwqaAwWFBN0G6Ml3cAtH40fAnRDzU&index=5
 - 내용
@@ -259,7 +259,7 @@ https://www.youtube.com/watch?v=Bbz7Vz9l_gY&list=PL_GeFwqaAwWFBN0G6Ml3cAtH40fAnR
 11. 렌즈(Lens) 툴로 클러스터 상태 확인
 12. 📧 마무리 및 다음 강의 예고 [00:52:01]
 
-# 19강
+# 19강 configMap과 secrets
 
 - URL : https://www.youtube.com/watch?v=TPKPzgsEMD0&list=PL_GeFwqaAwWFBN0G6Ml3cAtH40fAnRDzU&index=4
 - 내용
@@ -276,37 +276,37 @@ https://www.youtube.com/watch?v=Bbz7Vz9l_gY&list=PL_GeFwqaAwWFBN0G6Ml3cAtH40fAnR
 10. 이미지 빌드 및 도커 허브에 푸시하기
 11. 마무리 및 다음 강의 예고
 
-# 2강
+# 20강 PersistentVloumes와 Persistent volume claims 의 사용
 
-- URL :
+- URL :https://www.youtube.com/watch?v=14OWdbQKNKo&list=PL_GeFwqaAwWFBN0G6Ml3cAtH40fAnRDzU&index=3
 - 내용
+1. PV(Persistent Volumes)와 PVC(PersistentVolume Claims) 개념 소개 
+2. PV 생성 방법 / PVC 생성 방법과 역할 
+3. 파드에서PVC를 요청하는 과정 
+4. PV 타입과 고려사항 
+5. PV, PVC, 파드관계 도식 설명 
+6. PV YAML 파일 / PVC YAML 파일 작성 실습 
+7. 파드에PV, PVC 연결 설정 
+8. 쿠버네티스클러스터에 적용 및 확인 
+9. 도커컨테이너 내부 데이터 확인 
+10. 파드삭제 후 데이터 유지 확인 실습 
 
-# 2강
 
-- URL :
+# 21강 Service를 통한 Pod 외부 노출
+
+- URL : https://www.youtube.com/watch?v=jU11ElO7rIw&list=PL_GeFwqaAwWFBN0G6Ml3cAtH40fAnRDzU&index=2
 - 내용
+1. 서비스(Service) 개념과 라벨(Label) 기반 요청 분산 
+2. 서비스 타입 종류와 특징 (ClusterIP, NodePort, LoadBalancer 등) 
+3. 서비스 YAML 작성법 및 실습 (PostgreSQL DB 서비스 예시) 
+4. 기존 파드 및 데이터베이스 초기화, 재배포 과정 
+5. 북마커 API와 UI 서비스 및 디플로이먼트 작성 
+6. 클러스터 설정 및 포트 매핑 구성 (Kind 클러스터) 
+7. 최종 배포 및 브라우저에서 서비스 접속 확인 
+8. 다음 강의 예고: Ingress를 통한 경로 및 호스트 라우팅 
 
-# 2강
 
-- URL :
-- 내용
-
-# 2강
-
-- URL :
-- 내용
-
-# 2강
-
-- URL :
-- 내용
-
-# 2강
-
-- URL :
-- 내용
-
-# 2강
+# 22강 Ingress를 통한 라우팅
 
 - URL :
 - 내용
