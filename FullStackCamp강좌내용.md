@@ -190,7 +190,6 @@ https://www.youtube.com/watch?v=Bbz7Vz9l_gY&list=PL_GeFwqaAwWFBN0G6Ml3cAtH40fAnR
 
 - URL : https://www.youtube.com/watch?v=3q0Zcw5DSHI&list=PL_GeFwqaAwWFBN0G6Ml3cAtH40fAnRDzU&index=9
 - 내용
-
 1. 북마크 추가 페이지 기본 설정 및 네비게이션 바 수정
 2. 클라이언트 컴포넌트 작성과 useState 활용
 3. 폼 제출 핸들러(handleSubmit) 작성
@@ -204,7 +203,6 @@ https://www.youtube.com/watch?v=Bbz7Vz9l_gY&list=PL_GeFwqaAwWFBN0G6Ml3cAtH40fAnR
 
 - URL : https://www.youtube.com/watch?v=_Q9cNkfDSmQ&list=PL_GeFwqaAwWFBN0G6Ml3cAtH40fAnRDzU&index=8
 - 내용
-
 1. 도커 이미지와 포트 설정 이해하기
 2. 도커파일(Dockerfile) 작성하기 - UI 이미지 만들기
 3. 빌더와 실행용 이미지 분리 및 권한 설정
@@ -219,7 +217,6 @@ https://www.youtube.com/watch?v=Bbz7Vz9l_gY&list=PL_GeFwqaAwWFBN0G6Ml3cAtH40fAnR
 
 - URL : https://www.youtube.com/watch?v=HGEYofDDs3A&list=PL_GeFwqaAwWFBN0G6Ml3cAtH40fAnRDzU&index=7
 - 내용
-
 1. 개발 환경 준비와 도커 세팅
 2. VS 코드와 이클립스 프로젝트 연결하기
 3. .gitignore 설정과 깃허브 시크릿 변수 추가
@@ -233,7 +230,6 @@ https://www.youtube.com/watch?v=Bbz7Vz9l_gY&list=PL_GeFwqaAwWFBN0G6Ml3cAtH40fAnR
 
 - URL : https://www.youtube.com/watch?v=8k0KtGDkpIQ&list=PL_GeFwqaAwWFBN0G6Ml3cAtH40fAnRDzU&index=6
 - 내용
-
 1. 도커 기본 개념과 이미지/컨테이너 차이
 2. 도커 컴포즈와 볼륨 설명
 3. 쿠버네티스와 클러스터, 노드 개념
@@ -244,14 +240,12 @@ https://www.youtube.com/watch?v=Bbz7Vz9l_gY&list=PL_GeFwqaAwWFBN0G6Ml3cAtH40fAnR
 8. 렌즈(Lens) 설치 및 GUI로 클러스터 관리
 9. 파드, 서비스, 클러스터 삭제 방법
 10. 마무리 및 다음 강의 예고
-
-![로고](file://C:/dev/projects/java/fullstackcamp/bookmarker/kind/17Lec/17강이후강의계획.png)
+![이미지](https://github.com/badakang-cursor/bookmarker/blob/main/kind/17Lec/17%EA%B0%95%EC%9D%B4%ED%9B%84%EA%B0%95%EC%9D%98%EA%B3%84%ED%9A%8D.png?raw=true)
 
 # 18강
 
 - URL : https://www.youtube.com/watch?v=-67obTFAo4I&list=PL_GeFwqaAwWFBN0G6Ml3cAtH40fAnRDzU&index=5
 - 내용
-
 1. 강의 소개 및 기본 개념 설명
 2. 도커 이미지 준비 및 클러스터 생성
 3. 파드 생성과 확인 (CLI 명령어 사용)
