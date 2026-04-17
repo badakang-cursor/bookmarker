@@ -1,0 +1,42 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: bookmarker-ui-svc
+spec:
+  ports:
+  - name: app-port-mapping
+    port: 3000
+    protocol: TCP
+    targetPort: 3000
+    nodePort: 30080
+  selector:
+    app: bookmarker-ui-pod  # 연결할 Pod
+  type: NodePort
+  
+---
+  
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: bookmarker-ui-deployment
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: bookmarker-ui-pod  # Service의 Selector 와 동일 해야함
+  template:
+    metadata:
+      labels:
+        app: bookmarker-ui-pod  # Service의 Selector 와 동일 해야함
+    spec:
+      containers:
+      - image: chamiseul/bookmarker-ui-nextjs:5.0
+        name: bookmarker-ui # 컨테이너로 실행시 표시될 이름
+        ports:
+          - containerPort: 3000
+        env:  # bookmarker-ui-nextjs 프로젝트의 .env.local 참조
+          - name: NEXT_PUBLIC_CLIENT_SIDE_API_BASE_URL
+            value: http://localhost:18080
+          - name: SERVER_SIDE_API_BASE_URL
+            value: http://bookmarker-api-svc:8080 #k8s\21Lec\3-bookmarker-api.yaml 파일의 Service Name과 일치
+
