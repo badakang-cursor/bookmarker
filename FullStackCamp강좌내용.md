@@ -308,5 +308,12 @@ https://www.youtube.com/watch?v=Bbz7Vz9l_gY&list=PL_GeFwqaAwWFBN0G6Ml3cAtH40fAnR
 
 # 22강 Ingress를 통한 라우팅
 
-- URL :
+- URL : https://www.youtube.com/watch?v=EFTcZ0E9yCY&list=PL_GeFwqaAwWFBN0G6Ml3cAtH40fAnRDzU&index=1
 - 내용
+1. 인그레스란? 
+2. 호스트 기반 및 경로 기반 라우팅 설명   
+3. 인그레스 설정 예시와 구성 요소   
+4. 엔진엑스 인그레스 컨트롤러 필요성   
+5. API와 UI 인그레스 리소스 작성 실습   
+6. SH 스크립트로 클러스터 및 인그레스 컨트롤러 자동 설치     
+7. 브라우저에서 인그레스 라우팅 테스트 

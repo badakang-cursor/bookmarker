@@ -1,0 +1,38 @@
+# Kind Cluster 정의
+kind: Cluster
+apiVersion: kind.x-k8s.io/v1alpha4
+
+# 클러스터에 포함될 노드를 정의
+nodes:
+# control-plane 역할을 하는 node 1개 생성
+- role: control-plane
+  #이설정을 통해서 KinD 클러스터가 구성할 때 Ingress NGINX가 설치될때 node에 ingress-ready=true 라벨을 자동으로 붙이기 위해서
+  kubeadmConfigPatches:
+  - |
+    kind: InitConfiguration
+    nodeRegistration:
+      kubeletExtraArgs:
+        node-labels: "ingress-ready=true" 
+
+
+  # 외부에서 도커 컨테이너(즉, 클러스터 내부 Pod)에 접근 할 수 있도록 포트 매핑 설정
+  extraPortMappings:
+  # 일반 웹 접근용 포트 매핑(옵션)
+  - containerPort: 80  #내부 접근용
+    hostPort: 80  # localhost:80 외부 접근용
+    protocol: TCP # Optional, defaults to tcp
+
+  # SSL 웹 접근용 포트 매핑(옵션)
+  - containerPort: 443  #내부 접근용
+    hostPort: 443  # localhost:443 외부 접근용
+    protocol: TCP # Optional, defaults to tcp
+
+  # SpringBoot API 서비스용 포트 매핑(옵션)
+  - containerPort: 30090  #내부 접근용
+    hostPort: 18080  # localhost:30080 외부 접근용
+    protocol: TCP # Optional, defaults to tcp
+
+  # Next.js UI 프론트엔드용 포트 매핑(옵션)
+  - containerPort: 30080  #내부 접근용
+    hostPort: 30080  # localhost:30080 외부 접근용
+    protocol: TCP # Optional, defaults to tcp
